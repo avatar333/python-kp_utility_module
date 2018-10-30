@@ -10,13 +10,10 @@ init()
 def check_args(expected_arg_num: 0):
     """
     Check and confirm that the required amount of arguments have been passed
-
     Args:
         Uses arguments passed to the script itself, using sys.argv
-
     Returns:
         bool: True if argument count
-
     Raises:
         Exception: ?????
     """
@@ -32,13 +29,10 @@ def check_args(expected_arg_num: 0):
 def print_args():
     """
     Just some practice stuff for basics
-
     Args:
         Uses arguments passed to the script itself, using sys.argv
-
     Returns:
         bool: N/A
-
     Raises:
         Exception: ?????
     """
@@ -49,3 +43,4 @@ def print_args():
     print("web-hook_url: ", sys.argv[1])
 '''
 
+# TEST
