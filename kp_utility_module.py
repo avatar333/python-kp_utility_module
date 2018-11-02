@@ -21,7 +21,7 @@ def check_args(expected_arg_num: 0):
     if len(sys.argv[1:]) >= expected_arg_num:
         return True
     else:
-        print(f'Less than the expected{Fore.YELLOW}', expected_arg_num, \
+        print(f'Less than the expected{Fore.YELLOW}', expected_arg_num,
               f'{Style.RESET_ALL}arguments passed to{Fore.GREEN}', sys.argv[0])
         return False
 
@@ -37,11 +37,6 @@ def print_args():
         Exception: ?????
     """
 
-
-'''
     print("All the arguments passed to the script are:", sys.argv[1:], "\n")
     print("web-hook_url: ", sys.argv[1])
-'''
 
-# TEST
-# ZZZZZZZZZZZZZZZZZZZZZ
